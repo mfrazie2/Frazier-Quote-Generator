@@ -1,0 +1,97 @@
+body {
+	background-color: #FF6D00;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.main-content{
+	margin-top: 75px;
+	height: 500px;
+}
+
+.main-title{
+	position:relative;
+	margin: 10px auto 10px auto;
+	font-family: Proxima Nova;
+	font-size: 48px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: white;
+}
+
+.sub-title{
+	position: relative;
+	margin: 10px auto 35px auto;
+	font-family: Lust Script;
+	font-size: 109px;
+	font-weight: lighter;
+	color:white;
+}
+
+#quote-btn{
+	font-family: Proxima Nova;
+	font-size: 28px;
+	text-transform: lowercase;
+	margin: 10px auto 10px auto;
+	color: white; 
+	width: 235.5px;
+	height: 61.5px;
+	border: solid white;
+	border-radius: 12px;
+	cursor: pointer;
+	line-height: 61.5px;
+}
+
+/*
+.quote-btn:hover{
+	background: #4f7cac;
+}
+*/
+
+#quote-block{
+	padding: 40px 20px 40px 20px;
+}
+.quote-marks-top {
+	font-family: Lust Script;
+	font-size: 44px;
+	color:white;
+	font-weight: lighter;
+	margin-bottom: -15px;
+	margin-top: 0px;
+}
+
+.quote-marks-bottom {
+	font-family: Lust Script;
+	font-size: 44px;
+	color:white;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+#quote-contents{
+	font-family: Proxima Nova;
+	margin: auto;
+	font-size: 44px;
+	color: white;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#quote-speaker{
+	font-family: Proxima Nova;
+	font-size: 28px;
+	font-weight: lighter;
+	color: white;
+	margin-top: -20px;
+}
+
+footer p {
+	font-family: Lust Script;
+	font-weight: lighter;
+	color: white;
+	margin-top: 100px;
+}
