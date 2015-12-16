@@ -87,7 +87,7 @@ var backgroundColors = ["#FF6D00", "#931621", "#4F7CAC", "#21A0A0", "#1E3888"],
 	quoteEl = document.getElementById("quote-contents"),
 	speakerEl = document.getElementById("quote-speaker"),
 	button = document.getElementById("quote-btn"),
-	bodyColor = document.body.style.background;
+	bodyColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
 
 //gets a random number based on the length of the quotes array
 //gets the quote at that random index
